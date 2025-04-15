@@ -1,0 +1,26 @@
+.item-cut {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 400px;
+    min-height: 100px;
+    text-align: left;
+    box-shadow: 0 0 25px rgba(189, 236, 182, 0.60);
+    background-color: rgba(189, 236, 182, 0.699);
+    padding: 20px;
+  }
+
+ .item-cut-info__title {
+    margin: 0;
+    font-size: 20px;
+  }
+
+  .item-info__price {
+    font-size: 17px;
+  }
+
+  .delete-button {
+    max-width: 150px;
+    margin-left: 5px;
+  }

@@ -1,0 +1,18 @@
+.wrapper {
+    min-width: 500px;
+    max-width: 100%;
+}
+
+.list-title {
+    font-size: 24px;
+    text-align: center;
+}
+
+.order {
+    padding: 20px;
+}
+
+.final-price {
+    text-align: left;
+    padding-left: 20px;
+}
