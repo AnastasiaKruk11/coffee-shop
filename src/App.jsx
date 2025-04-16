@@ -6,7 +6,7 @@ import { useState } from 'react'
 function App() {
 
   const [items, setItems] = useState([
-    {id: 1, title: 'Матча барбарелла-шоколад', description: 'Матча, сливки, сироп барбарелла, молоко, молочный шоколад, цветы жасмина', price: 9.5, image: 'coffee-shop/images/matcha.jpg', chosen: false},
+    {id: 1, title: 'Матча барбарелла-шоколад', description: 'Матча, сливки, сироп барбарелла, молоко, молочный шоколад, цветы жасмина', price: 9.5, image: '../../images/matcha.jpg', chosen: false},
     {id: 2, title: 'Кофейно-гранатовая карамель', description: 'Эспрессо, сок гранатовый, пюре роза-личи-грейпфрут, сироп сгущённое молоко, бадьян', image: 'coffee-shop/images/pomegranate.jpg', price: 9.5, chosen: false},
     {id: 3, title: 'Латте кленовый грильяж', description: 'Кофе, кленовый сироп, грильяжный топпинг, взрывная карамель', image: 'coffee-shop/images/maple.jpg', price: 9, chosen: false},
     {id: 4, title: 'Матча персик-земляника', description: 'Тонизирующий напиток на основе матча, натурального персикового сока и пюре земляники', image: 'coffee-shop/images/peach.jpg', price: 9, chosen: false},
